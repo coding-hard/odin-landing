@@ -12,17 +12,18 @@ body {
 }
 
 .container div {
-    flex-basis: 160px;
-    box-sizing: border-box;
+    flex-basis: 300px;
+    /* box-sizing: border-box; */
 }
 
 .header,
 .footer {
     display: flex;
     align-items: center;
-    height: 80px; 
+    height: 100px; 
     background-color: #1f2937;
     color: white;
+    flex-shrink: 0;
 }
 
 .footer {
@@ -40,7 +41,7 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
 }
 
 ul {
@@ -54,17 +55,64 @@ ul {
     
 }
 
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.hero p {
+    color: #e5e7eb;
+}
+
+.hero button {
+    background-color: #3882f6;
+}
+
 .info {
    display: flex;
 }
 
+.info h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937
+}
+
 .quote {
     background-color: #e5e7eb;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.quote :nth-child(1) {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: justify;
+}
+
+.quote :nth-child(2) {
+    margin-left: auto;
+    margin-right: 100px;
+    font-weight: bold;
 }
 
 .cta {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background-color:#3882f6;
+    display: flex;
+    width: 200px;
 }
 
 
