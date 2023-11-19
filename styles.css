@@ -53,29 +53,46 @@ ul {
 .hero {
     background-color: #1f2937;
     display: flex;
+    justify-content: space-between;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
     align-items: start;
+    margin-left: 100px;
+    gap: 5px;
 }
 
 .hero h1 {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
+    margin: 0px;
 }
 
 .hero p {
     color: #e5e7eb;
+    margin: 0px;
 }
 
 .hero button {
     background-color: #3882f6;
     border-color: white;
     color: white;
-    border-radius: 25px;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.hero .image {
+    border: 4px solid black;
+    background-color: rgb(162, 128, 128);
+    color: blanchedalmond;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    flex-basis: 500px;
 }
 
 .info {
@@ -134,7 +151,7 @@ ul {
     background-color: #3882f6;
     border-color: white;
     color: white;
-    border-radius: 25px;
+    border-radius: 5px;
     margin-left: 200px;
 }
 
